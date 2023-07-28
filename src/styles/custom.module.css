@@ -1,0 +1,53 @@
+.gridNFT {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5em;
+}
+.marginTop {
+  margin-top: 10%;
+}
+.descriptionStack {
+  display: flex;  
+  text-align: left;
+  margin-top: 10%;
+}
+.imageView {
+  display: flex;  
+  margin-top: 5%;
+  margin-bottom: 10%;
+  image-rendering: optimizeQuality;  
+  border-color: azure;
+  border-width: 0.1em;
+}
+
+.container {
+  background: #1F1F1F;
+}
+
+.mintButton {
+  display: flex;  
+  margin: 2%;
+  width: 10%;
+}
+
+.product_image {
+  width: 2000px;
+  height: "auto";
+  background-color: #141414;
+}
+
+.flag_image {
+  width: 30px;
+  height: "auto";
+  background-color: #141414;
+}
+
+.hstack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
