@@ -35,13 +35,13 @@ export const ContentContainer: FC = (props) => {
             </Link>
           </li>
           <li>
-            <Link href="/dex">
-              <a>DEX</a>
+            <Link href="/store">
+              <a>Store</a>
             </Link>
           </li>
           <li>
-            <Link href="/store">
-              <a>Store</a>
+            <Link href="/dao">
+              <a>DAO</a>
             </Link>
           </li>
         </ul>

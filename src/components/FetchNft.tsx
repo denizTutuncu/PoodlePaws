@@ -63,3 +63,4 @@ export const FetchNft: FC = () => {
     </div>
   )
 }
+

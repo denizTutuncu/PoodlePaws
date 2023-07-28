@@ -21,7 +21,7 @@ export const Dex: NextPage = ({ }) => {
                 :
                 <div> 
                     <h1 className="text-center text-xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                        in Future
+                        in future
                     </h1>
                 </div>
             }

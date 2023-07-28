@@ -1,6 +1,5 @@
 import {
-    VStack,
-    HStack
+    VStack
   } from "@chakra-ui/react"
   import {
     FC,
@@ -14,7 +13,7 @@ import {
 
   const Store: FC = () => {
     const { publicKey } = useWallet();
-    const isOwner = ( publicKey ? publicKey.toString() === `2i4PjkSQBhRjMeuADgS6hvDamyjm3YX6PEbFtH8dcSEZ` : false );
+    const isOwner = ( publicKey ? publicKey.toString() === `5hi2GkLd46S6nxBoWan3e7tNr2Hfa7VoAN7oaQSbuM6z` : false );
     const [creating, setCreating] = useState(false);
     const [products, setProducts] = useState([]);
   
@@ -48,7 +47,10 @@ import {
             { creating && <CreateProduct /> }
 
             { publicKey ? 
-              renderItemBuyContainer() 
+              // renderItemBuyContainer() 
+              <h1 className="text-center text-xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                Coming soon
+              </h1>
               :
               <div> 
                     <h1 className="text-center text-xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">

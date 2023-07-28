@@ -11,7 +11,7 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Lira DAO NFTs</title>
+        <title>Poodle Paws</title>
         <meta name="The NFT Collection for Lira DAO" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

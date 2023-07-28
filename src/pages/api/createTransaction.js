@@ -12,7 +12,7 @@ import products from "../../pages/api/products.json";
 import { createTransferCheckedInstruction, getAssociatedTokenAddress, getMint } from "@solana/spl-token";
 
 // const mainNetUSDCAddress = new PublicKey("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v");
-const usdcDevNetAddress = new PublicKey("Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr");
+// const usdcDevNetAddress = new PublicKey("Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr");
 
 const sellerSOLAddress = 'GBByA19DBaJuSYUZU6fckCv6BmHxn8wR2HdBu2YNkB2B'
 const sellerSOLPublicKey = new PublicKey(sellerSOLAddress);
@@ -47,7 +47,7 @@ const createTransaction = async (req, res) => {
     // Convert our price to the correct format
     const bigAmount = BigNumber(itemPrice);
     const buyerPublicKey = new PublicKey(buyer);
-    const network = WalletAdapterNetwork.Devnet;
+    const network = WalletAdapterNetwork.Mainnet;
     const endpoint = clusterApiUrl(network);
     const connection = new Connection(endpoint);
     // A blockhash is sort of like an ID for a block. It lets you identify each block.
@@ -192,8 +192,8 @@ const createUSDCTransaction = async (req, res) => {
 
 export default function handler(req, res) {
   if (req.method === "POST") {
-    // createTransaction(req, res);
-    createUSDCTransaction(req, res);
+    createTransaction(req, res);
+    // createUSDCTransaction(req, res);
   } else {
     res.status(405).end();
   }

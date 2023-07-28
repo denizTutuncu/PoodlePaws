@@ -4,10 +4,10 @@ import styles from '../../styles/custom.module.css';
 
 export const HomeView: FC = ({}) => {
   return (
-    <div className="md:hero mx-auto p-4">
+    <div className="md:hero mx-auto p-5">
       <div className="md:hero-content flex flex-col">
         <h1 className="text-left text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-            Poodle Paws DAO
+            Poodle Paws
         </h1>
 
         <h2 className="md:w-full text-left text-slate-300 my-2">
@@ -58,7 +58,7 @@ export const HomeView: FC = ({}) => {
             </p>
         </h3>
 
-        <img className={styles.product_image}src='/poodlepawsworldtour.png' alt='The Lira DAO'/>
+        <img className={styles.product_image}src='/poodlepawsworldtour.png' alt='Poodle Paws World Tour NFT Collection'/>
 
         <h2 className="md:w-full text-left text-slate-300 my-2">
             <p className="max-auto text-left text-4xl md:pl-12  text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
@@ -81,7 +81,7 @@ export const HomeView: FC = ({}) => {
             </p>
         </h3>
 
-        <img className={styles.product_image}src='/dao.png' alt='The Lira DAO'/>
+        <img className={styles.product_image}src='/dao.png' alt='Poodle Paws DAO'/>
 
 
         <h2 className="md:w-full text-left text-slate-300 my-2">

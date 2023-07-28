@@ -14,7 +14,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
           <Head>
-            <title>The Lira DAO</title>
+            <title>Poodle Paws</title>
           </Head>
 
           <ContextProvider>

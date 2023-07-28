@@ -20,7 +20,7 @@ export const Product: NextPage<ProductProps> = ({ id, name, price, description, 
                 </div>
                 :
                 <div> 
-                    <h1 className="text-center text-xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                    <h1 className="text-left font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
 
                     <div className={styles.product_container}>
                       <div >
@@ -34,7 +34,7 @@ export const Product: NextPage<ProductProps> = ({ id, name, price, description, 
                         </div>
 
                         <div className={styles.product_action}>
-                          <div className={styles.product_price}>{price} USDC</div>
+                          <div className={styles.product_price}>{price} SOL</div>
                             <Buy itemID={id} />
                         </div>
                       </div>
