@@ -34,14 +34,14 @@ export const Footer: FC = () => {
                         </svg>
                     </a>
                     
-                    <a href="https://twitter.com/PoodlePawsWT">
+                    <a href="https://app.realms.today/dao/PPWT">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-vote">
                             <circle cx="12" cy="12" r="10"></circle>
                             <path d="M8 12L10 14L16 8"></path>
                         </svg>
                     </a>
                 </div>
-                
+
                 <div className="grid-flow-col gap-4 text-center pr-2">
                     <div>
                         <p className="text-white text-base font-light cursor-default ">
