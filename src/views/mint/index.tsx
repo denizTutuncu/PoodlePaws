@@ -5,9 +5,6 @@ import Link from "next/link"
 // Wallet
 import { useWallet, useConnection } from "@solana/wallet-adapter-react"
 
-// Components
-import Mint from "../../components/Mint"
-
 import pkg from "../../../package.json"
 
 // Store
