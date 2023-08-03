@@ -1,7 +1,6 @@
 import { FC } from "react"
 import { Dao } from "../../components/DAO/Dao"
 import styles from '../../styles/custom.module.css';
-import { PublicKey } from "@solana/web3.js"
 
 export const DAOView: FC = ({}) => {
   return (
