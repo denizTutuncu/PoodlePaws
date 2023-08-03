@@ -18,26 +18,40 @@ export const DAOView: FC = ({}) => {
         </div>
         <div className="md:hero mx-auto p-5">
           <div className="md:hero-content flex flex-col">
-            
+
+          <h2 className="md:w-full text-left text-slate-300 my-2">
+              <p className="max-auto text-left text-3xl md:pl-12  text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                Empowering Innovation and the Pet-Loving Community
+              </p>
+            </h2>
+
+          <h3 className="md:w-full text-left text-slate-300 my-2">
+              <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                Poodle Paws DAO is a decentralized autonomous organization that aims to revolutionize the pet industry by creating innovative digital products and services. 
+                Through the sale of unique NFTs and staking SOL tokens, the DAO plans to generate funds to drive its mission forward.
+              </p>
+            </h3>
+
             <h2 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-3xl md:pl-12  text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                NFTs and DAOs: A Symbiotic Relationship
+                NFT Sales and Token Distribution Strategy
               </p>
             </h2>
 
             <h3 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                NFTs (Non-Fungible Tokens) are unique digital assets that represent ownership of specific items, artworks, collectibles, or any other digital or physical assets. 
-                They are indivisible, non-interchangeable, and provably scarce, making them ideal for representing ownership of unique items in the digital world. 
-                NFTs are typically built on blockchain technology, providing immutability and ensuring that ownership records cannot be altered or duplicated. 
+              Poodle Paws DAO offers 55 unique NFTs for sale, priced at 175 SOL tokens each. 
+              95% of the proceeds will be deposited into the DAO's treasury, while the creators receive the remaining 5%.
+              You might wonder why only 55 out of 89 total NFTs are available for purchase.
               </p>
             </h3>
 
             <h3 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                In the context of a DAO like Poodle Paws, NFTs play a vital role in connecting individual stakeholders to the organization. 
-                Each NFT in the Poodle Paws World Tour Collection represents a unique key 🔑 that grants its owner access to participate in the DAO's decision-making and governance processes. 
-                This is where the true power of NFT ownership lies.</p>
+              The limited number of NFTs available for purchase is due to the token distribution strategy, with 20% reserved for founders, 20% for the team, and 60% for the public sale. 
+              The founders and team members will receive slightly less than the allocated 20% as they will be sharing a total of 34 NFTs.
+              By following this plan, the DAO expects to generate approximately 9143 $SOL tokens.
+              </p>
             </h3>
 
             <h2 className="md:w-full text-left text-slate-300 my-2">
@@ -48,22 +62,36 @@ export const DAOView: FC = ({}) => {
 
             <h3 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-              The ownership of a specific NFT confers voting power within the DAO. 
-              In the case of Poodle Paws DAO, the 89 stakeholders who hold these NFTs have the authority to propose new ideas, suggest changes to the organization, or vote on existing proposals. 
-              The voting process is typically conducted on-chain through smart contracts, ensuring that it is transparent and tamper-proof.</p>
+              The ownership of a specific NFT confers voting power within the DAO. In the case of Poodle Paws DAO, the 89 stakeholders who hold these NFTs have the authority to propose new ideas, suggest changes to the organization, or vote on existing proposals. 
+              The voting process is typically conducted on-chain through smart contracts, ensuring that it is transparent and tamper-proof.
+              </p>
             </h3>
 
             <h3 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-              Each NFT owner has the opportunity to voice their opinion, express their preferences, and cast their vote on proposals put forward by the community. 
-              This democratic approach ensures that no single entity or group has disproportionate control over the organization's decisions. 
-              Instead, voting power is distributed among all NFT holders, fostering a fair and inclusive governance model.
-                </p>
+                Each NFT owner has the opportunity to voice their opinion, express their preferences, and cast their vote on proposals put forward by the community. 
+                This democratic approach ensures that no single entity or group has disproportionate control over the organization's decisions. 
+                Instead, voting power is distributed among all NFT holders, fostering a fair and inclusive governance model.
+              </p>
+            </h3>
+
+            <h2 className="md:w-full text-left text-slate-300 my-2">
+              <p className="max-auto text-left text-3xl md:pl-12  text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                Staking SOL Tokens and Monthly Returns
+              </p>
+            </h2>
+
+            <h3 className="md:w-full text-left text-slate-300 my-2">
+              <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                After the NFT sales, the DAO may vote on staking 9000 $SOL tokens. 
+                This action is projected to generate a monthly return of 52.93603 SOL, taking into account the current inflation rate of 7.4% annually. 
+                This additional income will significantly boost the DAO's treasury on a monthly basis, empowering it to create innovative products or digital content and generate further profits. 
+              </p>
             </h3>
             
             <h2 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-3xl md:pl-12  text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                DAO and Ownership: Empowering Shareholders
+                Democratic Decision-Making Process
               </p>
             </h2>
         
@@ -71,8 +99,7 @@ export const DAOView: FC = ({}) => {
 
             <h3 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-              DAOs like Poodle Paws operate on the principle that governance decisions are determined by the majority vote of stakeholders. 
-              This means that the direction of the organization, including the allocation of resources and profits, is influenced directly by those who own NFTs and actively participate in the decision-making process.
+                The DAO makes decisions through a democratic voting mechanism, where a 60% majority vote is required.
               </p>
             </h3>
 
@@ -87,35 +114,56 @@ export const DAOView: FC = ({}) => {
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
                 The democratic and transparent nature of DAOs ensures that decisions are made openly and that stakeholders have access to all relevant information. 
                 This transparency builds trust and empowers shareholders to actively engage in the organization's activities, fostering a strong sense of community and shared responsibility.
-              </p>
+             </p>
             </h3>
-
+            
             <h2 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-3xl md:pl-12  text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-              Profits and Sustainability
+                Vision and Mission
               </p>
             </h2>
 
             <h3 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                The Poodle Paws DAO generates profits through various means, such as the creation of additional NFT collections or physical products. 
+                Poodle Paws DAO envisions becoming the preeminent pet brand in the realm of Web3 and beyond.
+               </p>
+            </h3>
+
+            <h3 className="md:w-full text-left text-slate-300 my-2">
+              <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                The DAO plans to generate profits through various means, such as the creation of additional NFT collections or physical products. 
                 These profits are then channeled back into the organization to support its mission, which includes furthering its reach as a prominent pet brand and contributing to animal welfare initiatives worldwide.
               </p>
             </h3>
 
+            <h2 className="md:w-full text-left text-slate-300 my-2">
+              <p className="max-auto text-left text-3xl md:pl-12  text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                Cutting-Edge On-Chain Booking System
+              </p>
+            </h2>
+
             <h3 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                By having direct control over how profits are used and allocated, NFT owners can influence the DAO's priorities and ensure that the organization remains true to its values and goals. 
-                This alignment between financial success and the organization's mission creates a sustainable model where profits are reinvested to drive positive impact and growth.
+                One of the DAO's goals is to create an on-chain booking system for pet parents, 
+                simplifying and enhancing the process of finding and booking pet care services using blockchain technology.
               </p>
             </h3>
 
             <h3 className="md:w-full text-left text-slate-300 my-2">
               <p className="max-auto text-left text-xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                In conclusion, NFTs and DAOs form a symbiotic relationship, where NFT ownership grants stakeholders voting power and influence over the organization's governance, including decisions about profits and sustainability. 
-                This decentralized and democratic approach gives stakeholders a genuine sense of ownership and control, empowering them to actively shape the future of the DAO and drive its success in achieving its broader mission and objectives.
-              </p>
+              This innovative platform will offer seamless access to reliable and trusted walkers and sitters, 
+              making pet care services more accessible and efficient.
+             </p>
             </h3>
+
+            <h3 className="md:w-full text-left text-slate-300 my-2">
+              <p className="max-auto text-left text-3xl md:pl-12 text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                In conclusion, NFTs and DAOs form a symbiotic relationship, where NFT ownership grants stakeholders voting power and influence over the organization's governance, 
+                including decisions about profits and sustainability. 
+                This decentralized and democratic approach gives stakeholders a genuine sense of ownership and control, 
+                empowering them to actively shape the future of the DAO and drive its success in achieving its broader mission and objectives.
+              </p>
+            </h3> 
 
             <div className="text-center">
               <Dao></Dao>

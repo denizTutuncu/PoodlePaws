@@ -12,10 +12,9 @@ import products from "../../pages/api/products.json";
 import { createTransferCheckedInstruction, getAssociatedTokenAddress, getMint } from "@solana/spl-token";
 
 // const mainNetUSDCAddress = new PublicKey("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v");
-// const usdcDevNetAddress = new PublicKey("Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr");
 
-const sellerSOLAddress = 'GBByA19DBaJuSYUZU6fckCv6BmHxn8wR2HdBu2YNkB2B'
-const sellerSOLPublicKey = new PublicKey(sellerSOLAddress);
+const daoAddress = 'AFgMKrBocQbvPGM5A5i7XbNcBnL8sSGSpSmGDSw3LpCU'
+const sellerSOLPublicKey = new PublicKey(daoAddress);
 
 const createTransaction = async (req, res) => {
   try {

@@ -47,15 +47,14 @@ import {
             { creating && <CreateProduct /> }
 
             { publicKey ? 
-              // renderItemBuyContainer() 
               <h1 className="text-center text-xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                Coming soon
+                { renderItemBuyContainer() }
               </h1>
               :
               <div> 
-                    <h1 className="text-center text-xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-                        Connect wallet
-                    </h1>
+                  <h1 className="text-center text-xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+                    Connect wallet
+                  </h1>
                 </div>
             }
             
