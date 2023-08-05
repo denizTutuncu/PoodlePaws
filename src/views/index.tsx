@@ -1,6 +1,5 @@
-export { MintView } from "./mint"
-export { DisplayView } from "./display"
-export { StakingView } from "./stake"
-export { HomeView } from "./home"
+export { HomeView } from "./home";
+export { MintView } from "./mint";
+export { DaoView } from "./dao"
 export { StoreView } from "./store"
-export { DAOView } from "./dao"
+export { BasicsView } from "./basics";

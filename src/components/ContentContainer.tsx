@@ -1,51 +1,55 @@
-import { FC } from "react"
-import Link from "next/link"
-export const ContentContainer: FC = (props) => {
-  return (
-    <div className="flex-1 drawer h-52">
-      {/* <div className="h-screen drawer drawer-mobile w-full"> */}
-      <input id="my-drawer" type="checkbox" className="grow drawer-toggle" />
-      <div className="items-center  drawer-content">{props.children}</div>
+import { FC } from 'react';
+import Link from "next/link";
+import Text from './Text';
+import NavElement from './nav-element';
+import Image from 'next/image';
 
+interface Props {
+  children: React.ReactNode;
+}
+
+export const ContentContainer: React.FC<Props> = ({ children }) => {
+
+  return (
+    <div className="flex-1 drawer h-52 flex-col justify-between">
+      <input id="my-drawer" type="checkbox" className="grow drawer-toggle" />
+      <div className="items-center drawer-content flex flex-col justify-between">
+        {children}
+      </div>
       {/* SideBar / Drawer */}
       <div className="drawer-side">
-        <label htmlFor="my-drawer" className="drawer-overlay"></label>
-        <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
+        <label htmlFor="my-drawer" className="drawer-overlay gap-6"></label>
+
+        <ul className="p-4 overflow-y-auto menu w-80 bg-base-100 gap-10 sm:flex items-center">
           <li>
-            <h1>Menu</h1>
+            <Text variant="heading" className='font-extrabold tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mt-10'>Menu</Text>
           </li>
           <li>
-            <Link href="/">
-              Home
-            </Link>
+          <NavElement
+            label="Home"
+            href="/"
+          />
           </li>
           <li>
-            <Link href="/mint">
-              Mint
-            </Link>
+          <NavElement
+            label="Mint"
+            href="/mint"
+          />
           </li>
           <li>
-            <Link href="/display">
-              Display NFT
-            </Link>
+          <NavElement
+            label="DAO"
+            href="/dao"
+          />
           </li>
           <li>
-            <Link href="/stake">
-              Stake NFT
-            </Link>
-          </li>
-          <li>
-            <Link href="/store">
-              Store
-            </Link>
-          </li>
-          <li>
-            <Link href="/dao">
-              DAO
-            </Link>
+          <NavElement
+            label="Store"
+            href="/store"
+          />
           </li>
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};

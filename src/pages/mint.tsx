@@ -6,10 +6,10 @@ const Mint: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Mint</title>
+        <title>Poodle Paws World Tour Mint</title>
         <meta
           name="description"
-          content="Mint"
+          content="Poodle Paws World Tour NFT Collection Metaplex Mint"
         />
       </Head>
       <MintView />

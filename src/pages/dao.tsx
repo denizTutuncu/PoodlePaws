@@ -1,17 +1,20 @@
-import type { NextPage } from "next"
-import Head from "next/head"
-import { DAOView } from "../views"
+import type { NextPage } from "next";
+import Head from "next/head";
+import { DaoView } from "../views";
 
-const DAO: NextPage = (props) => {
+const Dao: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>DAO</title>
-        <meta name="DAO" content="DAO" />
+        <title>Poodle Paws DAO</title>
+        <meta
+          name="description"
+          content="Poodle Paws DAO on Realms"
+        />
       </Head>
-      <DAOView />
+      <DaoView />
     </div>
-  )
-}
+  );
+};
 
-export default DAO
+export default Dao;
