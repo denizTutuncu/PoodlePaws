@@ -58,7 +58,7 @@ export const HomeView: FC = ({ }) => {
         </h4>
         <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
           <p className='text-slate-500 text-x1 leading-relaxed'>
-          As its first major initiative, Poodle Paws DAO has introduced the `Poodle Paws World Tour`` collection—an exclusive set of 89 unique non-fungible tokens (NFTs) residing on the Solana blockchain. 
+          As its first major initiative, Poodle Paws DAO has introduced the `Poodle Paws World Tour` collection—an exclusive set of 89 unique non-fungible tokens (NFTs) residing on the Solana blockchain. 
           More than mere photographs, each NFT within this collection serves as a symbolic key 🔑 to unlock the DAO`s inner workings.
           </p>
         </h4>
@@ -69,23 +69,14 @@ export const HomeView: FC = ({ }) => {
           </p>
         </h4>
 
-        <div className="relative group">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
-          <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-            <pre data-prefix="Poodle Paws World Tour NFT Collection">
-              <code className="truncate">
-                <div className='flex flex-row ml-1'>
-                  <Image
-                    src="/Poodlepawsworldtour.png"
-                    alt="Poodle Paws World Tour NFT Collection"
-                    width={400}
-                    height={300}
-                  />
-                </div> 
-              </code>
-            </pre>
-          </div>
-        </div>
+        <div className='flex flex-row ml-1'>
+          <Image
+            src="/Poodlepawsworldtour.png"
+            alt="Poodle Paws World Tour NFT Collection"
+            width={400}
+            height={300}
+          />
+        </div> 
 
         <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
           <p>Decentralized Autonomous Organization (DAO): Redefining Financial Systems</p>
