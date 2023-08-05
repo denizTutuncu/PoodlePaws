@@ -117,7 +117,7 @@ export const DaoView: FC = ({ }) => {
             <p className='text-slate-500 text-x1 leading-relaxed'>
               The ownership of a specific NFT confers voting power within the DAO. 
               In the case of Poodle Paws DAO, the 89 stakeholders who hold these NFTs have the authority to propose new ideas, suggest changes to the organization, or vote on existing proposals. 
-              The voting process is typically conducted on-chain through smart contracts, ensuring that it is transparent and tamper-proof
+              The voting process is typically conducted on-chain through smart contracts, ensuring that it is transparent and tamper-proof.
             </p>
           </h4>
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
