@@ -69,14 +69,22 @@ export const HomeView: FC = ({ }) => {
           </p>
         </h4>
 
-        <div className='flex flex-row ml-1'>
-          <Image
-            src="/Poodlepawsworldtour.png"
-            alt="Poodle Paws World Tour NFT Collection"
-            width={400}
-            height={300}
-          />
-        </div> 
+
+        <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
+            <div className="max-auto mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
+              <pre data-prefix="Poodle Paws DAO NFT Collection">
+                <code className="flex flex-row">
+                  <Image
+                    src="/Poodlepawsworldtour.png"
+                    alt="Poodle Paws World Tour NFT Collection"
+                    width={550}
+                    height={300}
+                  />
+                </code>
+              </pre>
+            </div>
+          </div>
 
         <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
           <p>Decentralized Autonomous Organization (DAO): Redefining Financial Systems</p>
@@ -135,20 +143,6 @@ export const HomeView: FC = ({ }) => {
             These profits are then channeled back into the organization to support its mission, which includes furthering its reach as a prominent pet brand and contributing to animal welfare initiatives worldwide.
           </p>
         </h4>
-        {/* <div className="flex flex-col mt-2">
-          <h4 className="md:w-full text-2xl text-slate-300 my-2">
-          {wallet &&
-          <div className="flex flex-row justify-center">
-            <div>
-              {(balance || 0).toLocaleString()}
-            </div>
-            <div className='text-slate-600 ml-2'>
-              SOL
-            </div>
-          </div>
-          }
-          </h4>
-        </div> */}
       </div>
     </div>
   );

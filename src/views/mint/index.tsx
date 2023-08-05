@@ -32,22 +32,27 @@ export const MintView: FC = ({ }) => {
       <div className="md:hero mx-auto p-4">
         <div className="md:hero-content flex flex-col">
           <div className='mt-6'>
-          <div className='text-sm font-normal align-bottom text-right text-slate-600 mt-4'>v{pkg.version}</div>
-          <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-            Poodle Paws World Tour 🐩 
-          </h1>
+            <div className='text-sm font-normal align-bottom text-right text-slate-600 mt-4'>v{pkg.version}</div>
+            <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
+              Poodle Paws World Tour 🐩 
+            </h1>
           </div>
 
-          <div className="text-left">
-            <Link href="https://studio.metaplex.com/project/poodle-paws-world-tour" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                <div className='flex flex-row ml-1'>
-                <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-                    Mint Collection on Metaplex
-                </h1>
-                </div>
-            </Link>
-         </div>
-
+          <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
+            <div className="max-auto mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
+              <pre data-prefix="Poodle Paws World Tour NFT Collection">
+                <code className="flex flex-row">
+                  <Link href="https://studio.metaplex.com/project/poodle-paws-world-tour" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                    <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
+                      Mint Collection on Metaplex
+                    </h1>
+                  </Link>
+                </code>
+              </pre>
+            </div>
+          </div>
+        
          <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
             <p>89 unique poodles from famous cities.</p>
          </h4>
@@ -66,18 +71,11 @@ export const MintView: FC = ({ }) => {
             Together, let`s pave the way for an extraordinary journey filled with innovation, compassion, and boundless possibilities!
             </p>
           </h4>
-  
-          <div className="relative group">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
-            <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-              <pre data-prefix="Poodle Paws World Tour">
-                <code className="flex flex-row ml-1">
-                    <p>13 poodles from PPWT NFT Collection</p>
-                </code>
-              </pre>
-            </div>
-          </div>
-  
+      
+          <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
+            <p>13 poodles from PPWT NFT Collection</p>
+         </h4>
+
           <div className='flex flex-row ml-1'>
             <Image
               src="/Poodles.png"

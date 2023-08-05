@@ -37,16 +37,22 @@ export const DaoView: FC = ({ }) => {
               Poodle Paws DAO
             </h1>
           </div>
-          <div className="text-left">
-            <Link href="https://app.realms.today/dao/PPWT" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                <div className='flex flex-row ml-1'>
-                <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-                    Open Poodle Paws DAO on Realms
-                </h1>
-                </div>
-            </Link>
-         </div>
 
+          <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
+            <div className="max-auto mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
+              <pre data-prefix="Poodle Paws DAO">
+                <code className="flex flex-row">
+                  <Link href="https://app.realms.today/dao/PPWT" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                    <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
+                      Open Poodle Paws DAO on Realms
+                    </h1>
+                  </Link>
+                </code>
+              </pre>
+            </div>
+          </div>
+        
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               Future proposals will be displayed here, but voting will happen on Realms.
@@ -154,15 +160,20 @@ export const DaoView: FC = ({ }) => {
             </p>
           </h4>
 
-          <div className="text-left">
-            <Link href="https://app.realms.today/dao/PPWT" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                <div className='flex flex-row ml-1'>
-                <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-                    Open Poodle Paws DAO on Realms
-                </h1>
-                </div>
-            </Link>
-         </div>
+          <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
+            <div className="max-auto mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
+              <pre data-prefix="Poodle Paws DAO">
+                <code className="flex flex-row">
+                  <Link href="https://app.realms.today/dao/PPWT" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                    <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
+                      Open Poodle Paws DAO on Realms
+                    </h1>
+                  </Link>
+                </code>
+              </pre>
+            </div>
+          </div>
 
         </div>
       </div>
