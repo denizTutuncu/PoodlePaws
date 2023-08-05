@@ -167,5 +167,5 @@ export const DaoView: FC = ({ }) => {
         </div>
       </div>
     );
-  };s
+  };
   
