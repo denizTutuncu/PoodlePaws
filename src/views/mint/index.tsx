@@ -80,6 +80,12 @@ export const MintView: FC = ({ }) => {
             Together, let`s pave the way for an extraordinary journey filled with innovation, compassion, and boundless possibilities!
             </p>
           </h4>
+
+          <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
+            <p className='text-slate-500 text-x1 leading-relaxed'>
+              Absolutely thrilled to discover which delightful poodle and charming city you'll end up with!
+            </p>
+          </h4>
       
           <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
             <p>13 poodles from PPWT NFT Collection</p>

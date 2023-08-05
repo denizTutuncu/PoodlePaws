@@ -33,7 +33,7 @@ export const HomeView: FC = ({ }) => {
         <div className='mt-6'>
         <div className='text-sm font-normal align-bottom text-right text-slate-600 mt-4'>v{pkg.version}</div>
         <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-          Poodle Paws
+          Poodle Paws Foundation
         </h1>
         </div>
 
@@ -54,6 +54,22 @@ export const HomeView: FC = ({ }) => {
         </h4>
 
         <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
+          <p>Poodle Paws</p>
+        </h4>
+        <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
+          <p className='text-slate-500 text-x1 leading-relaxed'>
+            Poodle Paws is a web3 organization.
+            The board of directors is on the Realms platform. 
+            There are a total of 89 NFTs, and all of their sales revenues go to the organization`s treasury. 
+            Access to the treasury and voting is provided through the Realms page. 
+            Think of the Poodle Paws website as the `store`, sales of online products on the Poodle Paws site, such as the dog training video series, will also be transferred to the organization`s treasury.
+            Those who own one of the 89 unique NFT collections have approximately 1.2% (1/89) of the total voting power within the DAO`s decision-making processes. 
+            If a person has 2 NFTs, their voting power increases to approximately 2.4%. Spending the funds in the treasury can only be done through voting. 
+            This means 1 NFT brings the ownership of 1/89th of all the money in the DAO`s treasury.  
+          </p>
+        </h4>
+
+        <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
           <p>Poodle Paws World Tour Collection: A Gateway to DAO Stakeholder Engagement</p>
         </h4>
         <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
@@ -68,7 +84,6 @@ export const HomeView: FC = ({ }) => {
             They have the authority to propose new ideas and suggestions or cast their votes on existing proposals, effectively determining the movement of funds stored securely within the DAO`s virtual vaults. 
           </p>
         </h4>
-
 
         <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
@@ -128,21 +143,7 @@ export const HomeView: FC = ({ }) => {
             height={300}
           />
         </div> 
-
-        <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
-          <p>Vision and Mission</p>
-        </h4>
-        <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
-          <p className='text-slate-500 text-x1 leading-relaxed'>
-            Poodle Paws DAO envisions becoming the preeminent pet brand in the realm of Web3 and beyond.
-          </p>
-        </h4>
-        <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
-          <p className='text-slate-500 text-x1 leading-relaxed'>
-            The DAO plans to generate profits through various means, such as the creation of additional NFT collections or physical products. 
-            These profits are then channeled back into the organization to support its mission, which includes furthering its reach as a prominent pet brand and contributing to animal welfare initiatives worldwide.
-          </p>
-        </h4>
+   
       </div>
     </div>
   );
