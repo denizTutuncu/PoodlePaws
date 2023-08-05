@@ -83,7 +83,7 @@ export const MintView: FC = ({ }) => {
 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              Absolutely thrilled to discover which delightful poodle and charming city you'll end up with!
+              Absolutely thrilled to discover which delightful poodle and charming city you`ll end up with!
             </p>
           </h4>
       
