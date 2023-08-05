@@ -84,7 +84,7 @@ export const DaoView: FC = ({ }) => {
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               Poodle Paws DAO offers 55 unique NFTs for sale, priced at 175 SOL tokens each. 
-              95% of the proceeds will be deposited into the DAO's treasury, while the creators receive the remaining 5%. 
+              95% of the proceeds will be deposited into the DAO`s treasury, while the creators receive the remaining 5%. 
               You might wonder why only 55 out of 89 total NFTs are available for purchase.
             </p>
           </h4>
@@ -109,7 +109,7 @@ export const DaoView: FC = ({ }) => {
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               Each NFT owner has the opportunity to voice their opinion, express their preferences, and cast their vote on proposals put forward by the community. 
-              This democratic approach ensures that no single entity or group has disproportionate control over the organization's decisions. 
+              This democratic approach ensures that no single entity or group has disproportionate control over the organization`s decisions. 
               Instead, voting power is distributed among all NFT holders, fostering a fair and inclusive governance model.
             </p>
           </h4>
@@ -121,7 +121,7 @@ export const DaoView: FC = ({ }) => {
             <p className='text-slate-500 text-x1 leading-relaxed'>
               After the NFT sales, the DAO may vote on staking 9000 $SOL tokens. 
               This action is projected to generate a monthly return of 52.93603 SOL, taking into account the current inflation rate of 7.4% annually. 
-              This additional income will significantly boost the DAO's treasury on a monthly basis, empowering it to create innovative products or digital content and generate further profits.
+              This additional income will significantly boost the DAO`s treasury on a monthly basis, empowering it to create innovative products or digital content and generate further profits.
             </p>
           </h4>
 
@@ -143,14 +143,14 @@ export const DaoView: FC = ({ }) => {
           </div> 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              Ownership of NFTs effectively makes stakeholders part-owners of the DAO, giving them a direct stake in the organization's success and future. 
-              As they hold NFTs, they become legitimate shareholders with the right to propose initiatives that align with the organization's mission, suggest improvements, and collectively decide on the distribution of profits.
+              Ownership of NFTs effectively makes stakeholders part-owners of the DAO, giving them a direct stake in the organization`s success and future. 
+              As they hold NFTs, they become legitimate shareholders with the right to propose initiatives that align with the organization`s mission, suggest improvements, and collectively decide on the distribution of profits.
             </p>
           </h4>
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               The democratic and transparent nature of DAOs ensures that decisions are made openly and that stakeholders have access to all relevant information. 
-              This transparency builds trust and empowers shareholders to actively engage in the organization's activities, fostering a strong sense of community and shared responsibility.
+              This transparency builds trust and empowers shareholders to actively engage in the organization`s activities, fostering a strong sense of community and shared responsibility.
             </p>
           </h4>
 
