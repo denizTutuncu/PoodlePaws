@@ -54,22 +54,6 @@ export const HomeView: FC = ({ }) => {
         </h4>
 
         <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
-          <p>Poodle Paws</p>
-        </h4>
-        <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
-          <p className='text-slate-500 text-x1 leading-relaxed'>
-            Poodle Paws is a web3 organization.
-            The board of directors is on the Realms platform. 
-            There are a total of 89 NFTs, and all of their sales revenues go to the organization`s treasury. 
-            Access to the treasury and voting is provided through the Realms page. 
-            Think of the Poodle Paws website as the `store`, sales of online products on the Poodle Paws site, such as the dog training video series, will also be transferred to the organization`s treasury.
-            Those who own one of the 89 unique NFT collections have approximately 1.2% (1/89) of the total voting power within the DAO`s decision-making processes. 
-            If a person has 2 NFTs, their voting power increases to approximately 2.4%. Spending the funds in the treasury can only be done through voting. 
-            This means 1 NFT brings the ownership of 1/89th of all the money in the DAO`s treasury.  
-          </p>
-        </h4>
-
-        <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
           <p>Poodle Paws World Tour Collection: A Gateway to DAO Stakeholder Engagement</p>
         </h4>
         <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
