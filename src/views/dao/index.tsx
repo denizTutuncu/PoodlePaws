@@ -87,6 +87,14 @@ export const DaoView: FC = ({ }) => {
           <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
             <p>NFT Sales and Token Distribution Strategy</p>
           </h4>
+          <div className='flex flex-row ml-1'>
+            <Image
+              src="/TokenDistribution.png"
+              alt="Cogent Staking SOL Calculator"
+              width={1500}
+              height={300}
+            />
+          </div> 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               Poodle Paws DAO offers 55 unique NFTs for sale, priced at 175 SOL tokens each. 
@@ -131,10 +139,18 @@ export const DaoView: FC = ({ }) => {
           <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
             <p>Staking SOL Tokens and Monthly Returns</p>
           </h4>
+          <div className='flex flex-row ml-1'>
+            <Image
+              src="/CogentSolStakingCalculator.png"
+              alt="Cogent Staking SOL Calculator"
+              width={1500}
+              height={300}
+            />
+          </div> 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               After the NFT sales, the DAO may vote on staking 9000 $SOL tokens. 
-              This action is projected to generate a monthly return of 52.93603 SOL, taking into account the current inflation rate of 7.4% annually. 
+              This action is projected to generate a monthly return of 52.90771 SOL, taking into account the current inflation rate of 7.15% annually. 
               This additional income will significantly boost the DAO`s treasury on a monthly basis, empowering it to create innovative products or digital content and generate further profits.
             </p>
           </h4>
