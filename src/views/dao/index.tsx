@@ -34,18 +34,18 @@ export const DaoView: FC = ({ }) => {
           <div className='mt-6'>
             <div className='text-sm font-normal align-bottom text-right text-slate-600 mt-4'>v{pkg.version}</div>
             <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-              Poodle Paws DAO
+              Poodle Paws Decentralized Autonomous Organization
             </h1>
           </div>
 
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
             <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-              <pre data-prefix="Poodle Paws DAO">
+              <pre data-prefix=" DAO on Realms">
                 <code className="flex flex-row">
                   <Link href="https://app.realms.today/dao/PPWT" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                     <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-                      DAO on Realms
+                      Poodle Paws DAO
                     </h1>
                   </Link>
                 </code>
@@ -55,7 +55,7 @@ export const DaoView: FC = ({ }) => {
         
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              Future proposals will be displayed here, but voting will happen on Realms.
+              Future proposals may be displayed here, but voting will happen on Realms.
             </p>
           </h4>
 
@@ -184,14 +184,60 @@ export const DaoView: FC = ({ }) => {
             </p>
           </h4>
 
+          <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
+            <p>DAO Community Token</p>
+          </h4>
+
+          
+          <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
+              <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
+                <pre data-prefix="GPaw on explorer">
+                  <code className="flex flex-row">
+                    <Link 
+                        href="https://explorer.solana.com/address/C9A5m95qYL3PDwcDpS6KwHSxjkhiv1fDQMenqFhev9gp" 
+                        target="_blank" rel="noopener noreferrer" passHref>
+                          <Image
+                            src="/GPAW.png"
+                            alt="Poodle Paws DAO Community Token"
+                            width={200}
+                            height={200}
+                          />
+                    </Link>
+                  </code>
+               </pre>
+              </div>
+            </div>
+
+          <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
+            <p className='text-slate-500 text-x1 leading-relaxed'>
+              The Poodle Paws Community Token, affectionately known as GPaw, stands as the emblematic digital currency of the Poodle Paws Community.
+              Unlike traditional tokens, GPaw is not just a means of transaction; it symbolizes a collective spirit and unity within the community.
+            </p>
+          </h4>
+
+          <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
+            <p className='text-slate-500 text-x1 leading-relaxed'>
+              Recognizing the evolving landscape of decentralized finance, the community has embraced a forward-thinking approach by not only accepting GPaw but also welcoming the widely recognized USDC as a payment currency.
+              This dual acceptance reflects the community`s commitment to inclusivity and adaptability.
+            </p>
+          </h4>
+          
+          <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
+            <p className='text-slate-500 text-x1 leading-relaxed'>
+              The decentralized autonomous organization (DAO) driving the Poodle Paws ecosystem envisions the GPaw token as a catalyst for increased influence and empowerment. 
+              Through the embrace of multiple payment currencies, the DAO aims to fortify its financial infrastructure, ensuring a robust and flexible foundation for the community`s flourishing future.
+            </p>
+          </h4>
+
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
             <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-              <pre data-prefix="Poodle Paws DAO">
+              <pre data-prefix="DAO on Realms">
                 <code className="flex flex-row">
                   <Link href="https://app.realms.today/dao/PPWT" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                     <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-                      DAO on Realms
+                        Poodle Paws DAO  
                     </h1>
                   </Link>
                 </code>
