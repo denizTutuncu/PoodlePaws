@@ -41,7 +41,7 @@ export const MintView: FC = ({ }) => {
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
             <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-              <pre data-prefix="Launches on 09/09/2023 07:00:00 UTC">
+              <pre data-prefix="Launches on 01/01/2024 08:00:00 UTC">
                 <code className="flex flex-row">
                   <Link href="https://studio.metaplex.com/project/poodle-paws-world-tour" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                     <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
@@ -109,7 +109,7 @@ export const MintView: FC = ({ }) => {
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
             <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-              <pre data-prefix="Launches on 09/09/2023 07:00:00 UTC">
+              <pre data-prefix="Launches on 01/01/2024 08:00:00 UTC">
                 <code className="flex flex-row">
                   <Link href="https://studio.metaplex.com/project/poodle-paws-world-tour" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                     <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
