@@ -119,15 +119,6 @@ export const HomeView: FC = ({ }) => {
           </p>
         </h4>
 
-        {/* <div className='flex flex-row ml-1'>
-          <Image
-            src="/PoddlePawsVoting.png"
-            alt="Poodle Paws DAO Voting"
-            width={1500}
-            height={300}
-          />
-        </div>  */}
-   
       </div>
     </div>
   );

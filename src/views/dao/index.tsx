@@ -212,21 +212,21 @@ export const DaoView: FC = ({ }) => {
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               The Poodle Paws Community Token, affectionately known as GPaw, stands as the emblematic digital currency of the Poodle Paws Community.
-              Unlike traditional tokens, GPaw isn't just a means of transaction; it symbolizes a collective spirit and unity within the community.
+              Unlike traditional tokens, GPaw is not just a means of transaction; it symbolizes a collective spirit and unity within the community.
             </p>
           </h4>
 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               Recognizing the evolving landscape of decentralized finance, the community has embraced a forward-thinking approach by not only accepting GPaw but also welcoming the widely recognized USDC as a payment currency.
-              This dual acceptance reflects the community's commitment to inclusivity and adaptability.
+              This dual acceptance reflects the community`s commitment to inclusivity and adaptability.
             </p>
           </h4>
           
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
               The decentralized autonomous organization (DAO) driving the Poodle Paws ecosystem envisions the GPaw token as a catalyst for increased influence and empowerment. 
-              Through the embrace of multiple payment currencies, the DAO aims to fortify its financial infrastructure, ensuring a robust and flexible foundation for the community's flourishing future.
+              Through the embrace of multiple payment currencies, the DAO aims to fortify its financial infrastructure, ensuring a robust and flexible foundation for the community`s flourishing future.
             </p>
           </h4>
 
