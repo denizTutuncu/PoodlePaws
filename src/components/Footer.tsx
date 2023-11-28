@@ -72,7 +72,7 @@ export const Footer: FC = () => {
                             <h5 className="font-normal capitalize tracking-tight  mb-2.5">DEVELOPERS</h5>
 
                             <div className="flex flex-col mb-0 gap-2">
-                                <Link href="https://github.com/denizTutuncu/PoodlePaws" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="https://github.com/Poodle-Paws" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     Documentation
                                 </Link>
                             </div>
