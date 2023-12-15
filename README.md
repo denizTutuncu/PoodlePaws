@@ -7,9 +7,9 @@ Poodle Paws DAO envisions becoming the preeminent pet brand in the realm of Web3
 
 #### Poodle Paws World Tour Collection: A Gateway to DAO Stakeholder Engagement
 
-As its first major initiative, Poodle Paws DAO has introduced the "Poodle Paws World Tour" collection—an exclusive set of 89 unique non-fungible tokens (NFTs) residing on the Solana blockchain. More than mere photographs, each NFT within this collection serves as a symbolic key 🔑 to unlock the DAO's inner workings.
+As its first major initiative, Poodle Paws DAO has introduced the "Poodle Paws World Tour" collection—an exclusive set of 89 unique non-fungible tokens (NFTs) residing on the Solana blockchain. More than mere photographs, each NFT within this collection serves as a symbolic key 🔑 to unlock the DAOs inner workings.
 
-By owning one of these NFT keys, stakeholders gain access to actively participate in Poodle Paws DAO. They have the authority to propose new ideas and suggestions or cast their votes on existing proposals, effectively determining the movement of funds stored securely within the DAO's virtual vaults. The governance process of the DAO mandates that for a proposal to be accepted, it must secure at least 60% of the total votes, requiring 54 out of the 89 stakeholders to vote in favor.
+By owning one of these NFT keys, stakeholders gain access to actively participate in Poodle Paws DAO. They have the authority to propose new ideas and suggestions or cast their votes on existing proposals, effectively determining the movement of funds stored securely within the DAOs virtual vaults. The governance process of the DAO mandates that for a proposal to be accepted, it must secure at least 60% of the total votes, requiring 54 out of the 89 stakeholders to vote in favor.
 
 #### Decentralized Autonomous Organization (DAO): Redefining Financial Systems
 

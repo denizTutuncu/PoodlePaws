@@ -49,7 +49,8 @@ export const HomeView: FC = ({ }) => {
         <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
         <p className='text-slate-500 text-x1 leading-relaxed'>
             Poodle Paws DAO envisions becoming the preeminent pet brand in the realm of Web3 and beyond. 
-            However, its ambitions go beyond commercial success; the DAO is committed to leveraging its influence and resources to support animals in need across the globe. At the core of its mission is a deep-rooted desire to create a harmonious relationship between commerce, community, and compassion.
+            However, its ambitions go beyond commercial success; the DAO is committed to leveraging its influence and resources to support animals in need across the globe.
+            At the core of its mission is a deep-rooted desire to create a harmonious relationship between commerce, community, and compassion.
           </p>
         </h4>
 
@@ -59,13 +60,13 @@ export const HomeView: FC = ({ }) => {
         <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
           <p className='text-slate-500 text-x1 leading-relaxed'>
           As its first major initiative, Poodle Paws DAO has introduced the `Poodle Paws World Tour` collection—an exclusive set of 89 unique non-fungible tokens (NFTs) residing on the Solana blockchain. 
-          More than mere photographs, each NFT within this collection serves as a symbolic key 🔑 to unlock the DAO`s inner workings.
+          More than mere photographs, each NFT within this collection serves as a symbolic key 🔑 to unlock the DAOs inner workings.
           </p>
         </h4>
         <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
           <p className='text-slate-500 text-x1 leading-relaxed'>
             By owning one of these NFT keys, stakeholders gain access to actively participate in Poodle Paws DAO. 
-            They have the authority to propose new ideas and suggestions or cast their votes on existing proposals, effectively determining the movement of funds stored securely within the DAO`s virtual vaults. 
+            They have the authority to propose new ideas and suggestions or cast their votes on existing proposals, effectively determining the movement of funds stored securely within the DAOs virtual vaults. 
           </p>
         </h4>
 
