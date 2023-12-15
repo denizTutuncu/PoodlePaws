@@ -79,7 +79,7 @@ export const DaoView: FC = ({ }) => {
           </h4>
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              The DAO plans to generate profits through various means, such as the creation of additional NFT collections or physical products. 
+              The DAO plans to generate profits through various means, such as the creation of additional NFT collections and physical products. 
               These profits are then channeled back into the organization to support its mission, which includes furthering its reach as a prominent pet brand and contributing to animal welfare initiatives worldwide.
             </p>
           </h4>
@@ -97,16 +97,32 @@ export const DaoView: FC = ({ }) => {
           </div> 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              Poodle Paws DAO offers 55 unique NFTs for sale, priced at 175 SOL tokens each. 
-              95% of the proceeds will be deposited into the DAO`s treasury, while the creators receive the remaining 5%. 
-              You might wonder why only 55 out of 89 total NFTs are available for purchase.
+              Poodle Paws DAO offers 54 unique NFTs for sale, priced at 175 SOL tokens each. 
+              95% of the proceeds will be deposited into the DAOs treasury, while the creators receive the remaining 5%. 
+              You might wonder why only 54 out of 89 total NFTs are available for purchase.
             </p>
           </h4>
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              The limited number of NFTs available for purchase is due to the token distribution strategy, with 20% reserved for founders, 20% for the team, and 60% for the public sale. 
-              The founders and team members will receive slightly less than the allocated 20% as they will be sharing a total of 34 NFTs. 
-              By following this plan, the DAO expects to generate approximately 9143 $SOL tokens.
+              The limited number of NFTs available for purchase is due to the token distribution strategy, with 10% reserved for founders, 30% for the team, and 60% for the public sale. 
+              The founders and team members will receive slightly less than the allocated 40% as they will be sharing a total of 35 NFTs. 
+              By following this plan, the DAO expects to generate approximately 9450 SOL tokens.
+            </p>
+          </h4>
+
+          <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
+            <p className='text-slate-500 text-x1 leading-relaxed'>
+              • Founders: 9 NFTs
+            </p>
+          </h4>
+          <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
+            <p className='text-slate-500 text-x1 leading-relaxed'>
+              • Team: 26 NFTs
+            </p>
+          </h4>
+          <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
+            <p className='text-slate-500 text-x1 leading-relaxed'>
+              • Public sale: 54 NFTs
             </p>
           </h4>
 
@@ -149,7 +165,7 @@ export const DaoView: FC = ({ }) => {
           </div> 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              After the NFT sales, the DAO may vote on staking 9000 $SOL tokens. 
+              After the NFT sales, the DAO may vote on staking 9000 SOL tokens. 
               This action is projected to generate a monthly return of 52.90771 SOL, taking into account the current inflation rate of 7.15% annually. 
               This additional income will significantly boost the DAO`s treasury on a monthly basis, empowering it to create innovative products or digital content and generate further profits.
             </p>
