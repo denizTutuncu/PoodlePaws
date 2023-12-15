@@ -53,8 +53,8 @@ export const MintView: FC = ({ }) => {
 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-                Once you`ve minted your exclusive Poodle Paws World Tour NFT, a whole new world of possibilities awaits you! As a proud NFT owner, you hold the key 🔑 to unlock the gateway to the Poodle Paws DAO. 
-                With excitement in your heart, head to the DAO`s dedicated page, where you can immerse yourself in the decentralized wonders that lie ahead. 
+                Once you have minted your exclusive Poodle Paws World Tour NFT, a whole new world of possibilities awaits you! As a proud NFT owner, you hold the key 🔑 to unlock the gateway to the Poodle Paws DAO. 
+                With excitement in your heart, head to the DAOs dedicated page, where you can immerse yourself in the decentralized wonders that lie ahead. 
                 Armed with your voting power, you become an integral part of the decision-making process, actively shaping the destiny of the DAO.
             </p>
           </h4>
@@ -68,7 +68,7 @@ export const MintView: FC = ({ }) => {
 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              We are absolutely thrilled to discover which delightful poodle and charming city you`ll end up with!
+              We are absolutely thrilled to discover which delightful poodle and charming city you will end up with!
             </p>
           </h4>
 
