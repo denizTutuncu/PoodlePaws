@@ -37,6 +37,15 @@ export const HomeView: FC = ({ }) => {
         </h1>
         </div>
 
+        <div className="relative group">
+                  <Image
+                    src="/PPWTCollage.png"
+                    alt="Poodle Paws World Tour NFT Collection Collage"
+                    width={1250}
+                    height={750}
+                  />
+          </div>
+
         <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
           <p>Revolutionizing Pet Brands and Empowering Animal Welfare in the Web3 Era</p>
         </h4>
