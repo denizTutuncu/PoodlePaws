@@ -75,11 +75,11 @@ export const MintView: FC = ({ }) => {
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
             <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-              <pre data-prefix="Launches on 01/01/2024 08:00:00 UTC">
+              <pre data-prefix="Launches on 04/04/2024 08:00:00 UTC">
                 <code className="flex flex-row">
                   <Link href="https://studio.metaplex.com/project/poodle-paws-world-tour" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                     <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-                      Mint on Metaplex
+                      Mint on Truffle
                     </h1>
                   </Link>
                 </code>
@@ -102,18 +102,18 @@ export const MintView: FC = ({ }) => {
 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              The Poodle Paws World Tour NFT collection will be open for public minting on Metaplex starting January 1, 2024.
+              The Poodle Paws World Tour NFT collection will be open for public minting on Truffle starting April 4, 2024.
             </p>
           </h4>
 
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
             <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-              <pre data-prefix="Launches on 01/01/2024 08:00:00 UTC">
+              <pre data-prefix="Launches on 04/04/2024 08:00:00 UTC">
                 <code className="flex flex-row">
                   <Link href="https://studio.metaplex.com/project/poodle-paws-world-tour" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                     <h1 className="text-center text-3xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-                      Mint on Metaplex
+                      Mint on Truffle
                     </h1>
                   </Link>
                 </code>
