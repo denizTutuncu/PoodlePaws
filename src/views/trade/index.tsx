@@ -43,7 +43,7 @@ export const TradeView: FC = ({ }) => {
                 <code className="flex flex-row">
                   <Link href="https://www.tensor.trade/trade/poodlepawsworldtour" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                     <h1 className="text-center text-xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
-                        Trade GGWT on Tensor
+                        Trade PPWT on Tensor
                     </h1>
                   </Link>
                 </code>
