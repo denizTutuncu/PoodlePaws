@@ -97,7 +97,7 @@ export const DaoView: FC = ({ }) => {
           </div> 
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              Poodle Paws DAO offers 54 unique NFTs for sale, priced at 10 SOL tokens each. 
+              Poodle Paws DAO offers 54 unique NFTs for sale, priced at 3 SOL tokens each. 
               95% of the proceeds will be deposited into the DAOs treasury, while the creators receive the remaining 5%. 
               You might wonder why only 54 out of 89 total NFTs are available for purchase.
             </p>
@@ -106,7 +106,7 @@ export const DaoView: FC = ({ }) => {
             <p className='text-slate-500 text-x1 leading-relaxed'>
               The limited number of NFTs available for purchase is due to the token distribution strategy, with 10% reserved for founders, 30% for the team, and 60% for the public sale. 
               The founders and team members will receive slightly less than the allocated 40% as they will be sharing a total of 35 NFTs. 
-              By following this plan, the DAO expects to generate approximately 540 SOL tokens.
+              By following this plan, the DAO expects to generate approximately 162 SOL tokens.
             </p>
           </h4>
 
@@ -153,21 +153,20 @@ export const DaoView: FC = ({ }) => {
           </h4>
 
           <h4 className="md:w-full text-2x1 md:text-4xl text-lefts text-slate-300 my-2">
-            <p>Staking SOL Tokens and Monthly Returns</p>
+            <p>Proposal for Establishing GPAW Community Token Pools Post-NFT Sales</p>
           </h4>
           <div className='flex flex-row ml-1'>
             <Image
-              src="/SolStakingCalculator.png"
-              alt="Staking SOL Calculator"
+              src="/GPAWPOOL.png"
+              alt="GPAW POOL"
               width={1500}
               height={300}
             />
           </div> 
+
           <h4 className="md:w-full text-2x1 md:text-2xl text-lefts text-slate-300 my-2">
             <p className='text-slate-500 text-x1 leading-relaxed'>
-              After the NFT sales, the DAO may vote on staking 540 SOL tokens. 
-              This action is projected to generate a daily return of $18.98, taking into account the current inflation rate of 7.39% annually. 
-              This additional income will significantly boost the DAO`s treasury on a monthly basis, empowering it to create innovative products or digital content and generate further profits.
+              After the NFT sales, the DAO may conduct a vote to establish pools for the community token GPAW.            
             </p>
           </h4>
 
@@ -245,6 +244,15 @@ export const DaoView: FC = ({ }) => {
               Through the embrace of multiple payment currencies, the DAO aims to fortify its financial infrastructure, ensuring a robust and flexible foundation for the community`s flourishing future.
             </p>
           </h4>
+
+          <div className='flex flex-row ml-1'>
+            <Image
+              src="/GPAWPieChart.png"
+              alt="GPAW Pie Chart"
+              width={1500}
+              height={300}
+            />
+          </div> 
 
           <div className="relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
